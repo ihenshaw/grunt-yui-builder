@@ -1,0 +1,45 @@
+{
+  "name": "grunt-yui-builder",
+  "description": "A grunt task to wrap YUI modules in the YUI boiler plate and create a modules.json file.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jamiejones85/grunt-yui-builder",
+  "author": {
+    "name": "Jones,Jamie",
+    "email": "jamie@jamie-jones.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamiejones85/grunt-yui-builder"
+  },
+  "bugs": {
+    "url": "https://github.com/jamiejones85/grunt-yui-builder/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jamiejones85/grunt-yui-builder/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "uglify-js": "^2.4.16",
+    "path": "^0.11.14"
+  }
+}

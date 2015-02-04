@@ -1,0 +1,5 @@
+YUI.add('<% module_name %>', function(Y) {
+
+<% module_content %>
+
+}, '@VERSION@' ,{"lang":["fr","ja","zh-TW","nl","es","de","ko","zh-CN","zz","ui"],"requires":[<% module_requires %>]});

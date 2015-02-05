@@ -45,7 +45,7 @@ module.exports = function(grunt) {
 
   buildRaw = function(moduleDir, properties) {
       var content = grunt.file.read(path.join(moduleDir, 'js', properties.jsfiles)),
-      template = grunt.file.read('boilerplate.template'),
+      template = grunt.file.read(path.join(__dirname, '..', 'boilerplate.template')),
       requiresString;
 
       requiresString = properties.requires.map(function(dep){

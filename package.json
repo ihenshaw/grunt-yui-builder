@@ -1,7 +1,7 @@
 {
   "name": "grunt-yui-builder",
   "description": "A grunt task to wrap YUI modules in the YUI boiler plate and create a modules.json file.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jamiejones85/grunt-yui-builder",
   "author": {
     "name": "Jones,Jamie",
